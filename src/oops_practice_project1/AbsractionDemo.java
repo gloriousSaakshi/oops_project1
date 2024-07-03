@@ -7,7 +7,7 @@ public class AbsractionDemo {
 		Employee contractor = new Contractor("contractor",8, 10);
 		Contractor obj1= new Contractor("contractor",8, 10);
 		Employee fullTimeEmployee = new FullTimeEmployee("Full Time Employee", 8);
-		//Contractor obj1= new Contractor("contractor",8, 10);
+		Contractor obj1= new Contractor("contractor",8, 10);
 		
 		System.out.println(contractor.calculateSalary());
 		System.out.println(fullTimeEmployee.calculateSalary());
